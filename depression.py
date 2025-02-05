@@ -18,7 +18,7 @@ from nltk import PorterStemmer
 from keras.models import Model, Sequential
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 from keras.layers import Conv1D, Dense, Input, LSTM, Embedding, Dropout, Activation, MaxPooling1D
-from keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import plot_model
 
